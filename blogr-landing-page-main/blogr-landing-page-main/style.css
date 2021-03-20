@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: auto 0;
+}
+
+
+/*-------------- 
+A Modern Publication Plaform NavBar
+----------------*/
+.header-img img{
+    position: relative;
+    top: 2rem;
+    left: 5rem;
+}
+.header-img img:nth-child(2){
+    width: 95rem;
+    position: absolute;
+    top: -46rem;
+}
+header{
+    background-color: #ff836d;
+    min-height: 35rem;
+    border-bottom-left-radius: 6rem;
+}
+header ul li a{
+    float: left;
+    margin: 30px;
+    text-decoration: none;
+    position: relative;
+    left: 12rem;
+    top: -3rem;
+    color: white;
+    font-size: 18px;
+
+}
+header ul li{
+    list-style-type: none;
+}
+.buttons h4{
+    position: relative;
+    left: 47rem;
+    top: -19px;
+    color: #ffff;
+}
+.buttons button{
+    position: relative;
+    left: 53rem;
+    top: -67px;
+    border-radius: 17px;
+    padding: 10px 21px;
+    outline: none;
+    color: #e3666e;
+    border: none;
+}
+
+.texts h1{
+    margin: 6rem;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.texts p{
+    text-align: center;
+    color: #ffff;
+    top: -5rem;
+    position: relative;
+    font-size: 19px;
+}
+.text-button{
+    position: relative;
+    left: 39rem;
+    top: -55px;
+}
+.text-button button:nth-child(1){
+    border-radius: 17px;
+    padding: 10px 10px;
+    border: none;
+    color: #f9555e;
+}
+.text-button button:nth-child(2){
+    border-radius: 10px;
+    padding: 10px 10px;
+    background: #ff836d;
+    border-color: white;
+    display: inline-block;
+    color: white;
+}
